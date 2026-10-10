@@ -1,0 +1,11 @@
+{
+  "source_rows": 10000,
+  "matched_original_imdb_text_and_label": 10000,
+  "unmatched_rows": [],
+  "note": "Repeated source texts can match both official partitions; matched archive membership does not establish which original split the local file was sampled from.",
+  "chosen_archive_members_by_partition": {
+    "train": 10000
+  },
+  "input_sha256": "c27b5669913c270e125bf2785147e24843c300810821597f553affb035028aff",
+  "official_archive_sha256": "c40f74a18d3b61f90feba1e17730e0d38e8b97c05fde7008942e91923d1658fe"
+}

@@ -1,0 +1,9 @@
+{
+  "source_rows": 10000,
+  "duplicates_removed": 17,
+  "split_rows": {
+    "train": 6988,
+    "validation": 1497,
+    "test": 1498
+  }
+}

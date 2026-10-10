@@ -1,0 +1,34 @@
+{
+  "corpus": {
+    "title": "James Watt",
+    "author": "Andrew Carnegie",
+    "year": 1905,
+    "url": "https://www.gutenberg.org/ebooks/26131",
+    "local_preparation": "Existing cleaned body; chapter titles and separators removed. Word sequence matches source except removed headings.",
+    "source_body_word_alignment_ratio": 0.9993179574620839,
+    "license": "Project Gutenberg terms retained; original work public domain in the United States",
+    "sha256": "e7e025ab9df3e14c5e8a6b4e7115575821cc3efa713ba56818db42620acdca2f"
+  },
+  "imdb": {
+    "url": "https://ai.stanford.edu/~amaas/data/sentiment/",
+    "version": "aclImdb_v1",
+    "subset": "Original 10,000 reviews reconstructed with a verified archive-member manifest; custom hash-disjoint splits, not the full official benchmark"
+  },
+  "glove": {
+    "url": "https://nlp.stanford.edu/projects/glove/",
+    "variant": "glove.6B.200d",
+    "license": "Open Data Commons PDDL 1.0"
+  },
+  "bert": {
+    "id": "google-bert/bert-base-uncased",
+    "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+    "license": "Apache-2.0"
+  },
+  "tiny": {
+    "id": "roneneldan/TinyStories-1M",
+    "revision": "77f1b168e219585646439073245fe87e56b3023e",
+    "actual_total_parameters": 3745984,
+    "local_weight_verification": "All 108 safetensors tensors exactly match official published pytorch_model.bin tensors; extra official tensors are attention-mask buffers.",
+    "license": "No explicit license metadata on the original model card; weights are downloaded, not redistributed."
+  }
+}

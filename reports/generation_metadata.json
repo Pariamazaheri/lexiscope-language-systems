@@ -1,0 +1,17 @@
+{
+  "actual_total_parameters": 3745984,
+  "local_files": {
+    "model.safetensors": "fdb05ba2a15f0439691a37e2708b1a7f7560ee55b885b41a2fe65edb0c0c71d1",
+    "tokenizer_config.json": "66d3477c99dd8f3e49f7f91e97746b70cb1d1cb9127e13defad98c366d925da6",
+    "config.json": "730a37221d3b7f47ace38f4a87a66d277677a55b24badb521d3d588abe807a4e",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "generation_config.json": "751247ea3b70cf102957dd3e311367e8f3363deacb62b15ef28715b3b05c1fb9"
+  },
+  "seeded_samples": [
+    42,
+    43,
+    44
+  ],
+  "token_budget": 25,
+  "parity_scope": "One unpadded prompt per call; same EOS and token budget"
+}

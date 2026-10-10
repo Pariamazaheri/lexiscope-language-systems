@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "lexiscope-language-systems"
+version = "1.0.0"
+description = "Auditable embeddings, decoding and language-model transfer benchmarks"
+readme = "README.md"
+authors = [{name = "Paria Mazaheri"}]
+requires-python = ">=3.11"
+dependencies = ["torch>=2.6,<3", "transformers>=4.48,<5", "numpy>=2,<3", "pandas>=2.2,<4", "scikit-learn>=1.6,<2", "matplotlib>=3.9,<4", "seaborn>=0.13,<1", "joblib>=1.4,<2"]
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.11", "nbformat>=5", "nbclient>=0.10", "ipykernel>=6", "build>=1"]
+[project.scripts]
+lexiscope = "lexiscope.cli:main"
+[project.urls]
+Repository = "https://github.com/Pariamazaheri/lexiscope-language-systems"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+[tool.ruff]
+line-length = 88
+[tool.ruff.lint]
+select = ["E", "F", "I"]

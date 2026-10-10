@@ -1,0 +1,17 @@
+{
+  "total_source_tokens": 69590,
+  "token_ranges": {
+    "train": [
+      0,
+      32768
+    ],
+    "validation": [
+      48713,
+      52809
+    ],
+    "test": [
+      59151,
+      63247
+    ]
+  }
+}

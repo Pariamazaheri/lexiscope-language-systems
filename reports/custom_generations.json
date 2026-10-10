@@ -1,0 +1,14 @@
+[
+  {
+    "id": "lstm_lm",
+    "prompt": "The old man",
+    "initial": "The old manrend operators inappropriate GEN peripheradoes pursuantGroupbreak Line Line grasp aisle McGill Hampshire",
+    "trained": "The old man The which the a, the in, the, to, to the Watt"
+  },
+  {
+    "id": "transformer_lm",
+    "prompt": "The old man",
+    "initial": "The old man RooseveltCow Brooks temperfixed commissionediielligence pitches conferred Israelis xml ALEC bogusartisan",
+    "trained": "The old man, and the work, the in, the, to, to the Watt"
+  }
+]

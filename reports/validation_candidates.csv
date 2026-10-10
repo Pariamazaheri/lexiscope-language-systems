@@ -1,0 +1,5 @@
+id,validation_log_loss
+lstm_scratch,0.6126730442047119
+transformer_scratch,0.49284449219703674
+transformer_transfer,0.49195176362991333
+tfidf_reference,0.3277700358649732

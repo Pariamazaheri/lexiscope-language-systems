@@ -1,0 +1,5 @@
+{
+  "selected_model": "tfidf_reference",
+  "criterion": "validation log loss",
+  "seed": 42
+}

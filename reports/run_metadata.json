@@ -1,0 +1,51 @@
+{
+  "config": {
+    "width": 64,
+    "layers": 2,
+    "dropout": 0.2,
+    "max_length": 256
+  },
+  "lm_epochs_max": 4,
+  "classification_epochs_max": 6,
+  "patience": 2,
+  "lm_batch_size": 16,
+  "sentiment_batch_size": 32,
+  "lm_sequence_length": 64,
+  "sentiment_sequence_length": 128,
+  "downstream_seeds": [
+    42,
+    43,
+    44
+  ],
+  "pretraining_seed": 42,
+  "pretraining_scope": "Single shared pretrained checkpoint; seed contrasts are conditional on it",
+  "vocabulary_size": 50257,
+  "classification_threshold": 0.5,
+  "source_hashes": {
+    "generation.py": "e4d9b8edbc8bf96b786ce9a424ab22517e87e55a9705bacb2489f3890152800a",
+    "models.py": "a06751e61f6e81e9c015bedd4937ea2e403581e7cb1a0bd31035ec3c884010b4",
+    "evaluation.py": "e5c3709ee2186342447085637e88832a81b49ad36df291cf14707fa87a6d1554",
+    "__init__.py": "9ac3d4aafed3cfd1a1432d5c60bbeb4c3b334b08d952018af2aeea435eba5b35",
+    "visualization.py": "ad9d7b8f9876c515a5ca12fcc1fb31bc45583cbbee623fe88f754dbe351a2292",
+    "decoding.py": "429a8eba9a4974f5373b90751004422de5bc6e3d2764b71a572079edac2867ea",
+    "sources.py": "9e7bc66e2ccb9cc1d74cf7b7e5f6d3ba6a1f34876f65b4674efff8fea13c7adc",
+    "embeddings.py": "6a71cb815c184679cd824197333af9ea7ad17b4ef295a9339d2600c0bf332ab5",
+    "cli.py": "fd105f0f4452b3554a346d939607abb91f5f01c6d24a5dcbfbc40ca6593d73f1",
+    "pipeline.py": "1599428957785f54a0ecc7f2570cd07fd3e10b7d99284b5a6f98882962005f29",
+    "training.py": "8e500c031cbd09cfbe5a585226acaafa914e9dba0fd58ad6e59e8fa840787c90",
+    "data.py": "5c01c76057a3f33b86bcbc4b46a741441ab403787bfd1617c0704104eef8873e"
+  },
+  "input_hashes": {
+    "gutenberg_26131.txt": "7e38255a894e3dd22fa278e8f2c727e7c41b7626fd6442388f41906826e7d2cb",
+    "corpus.txt": "e7e025ab9df3e14c5e8a6b4e7115575821cc3efa713ba56818db42620acdca2f"
+  },
+  "sentiment_csv_sha256": "c27b5669913c270e125bf2785147e24843c300810821597f553affb035028aff",
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "4.57.6",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1"
+  },
+  "report_tooling": "Final source manifest includes packaging, source reconstruction and post-training figures; fitted model configurations are unchanged."
+}
